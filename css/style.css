@@ -18,7 +18,6 @@ img[alt="www.000webhost.com"]
 body
 {
     height:100%;
-    width:100%;
 }
 
 div#choice
@@ -209,20 +208,13 @@ section article h1
     font-size:40px;
 }
 
-img
-{
-    width: 60px;
-    height: 60px;
-}
-
 footer
 {
     background-color: #CACACA;
-    width:100%;
     position: absolute;
+    border:3px solid black;
     text-align:center;
-    border-top:2px solid black;
-    border-bottom:2px solid black;
+    width:100vw;
 }
 
 footer h3
@@ -267,4 +259,27 @@ i#btc:hover,i#eth:hover
 {
     transition: 0.3s all;
     color: sandybrown;
+}
+
+div#ethereum
+{
+    margin-bottom:100px;
+}
+
+@media(max-width:1080px)
+{
+    div#choice
+    {
+        display: block;
+    }
+
+    div#choice a
+    {
+        margin-bottom:5%;
+    }
+
+    section
+    {
+        width:80%;
+    }
 }
