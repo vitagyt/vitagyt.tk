@@ -160,7 +160,7 @@ span#shop
 
 section
 {
-    width:65%;
+    width:70%;
     margin:0 auto;
     min-height: 100%;
     position: relative;
@@ -258,7 +258,16 @@ i#btc, i#eth
 i#btc:hover,i#eth:hover
 {
     transition: 0.3s all;
-    color: sandybrown;
+}
+
+i#btc:hover
+{
+    color: #f7931a;
+}
+
+i#eth:hover
+{
+    color: #3c3c3d;
 }
 
 div#ethereum
