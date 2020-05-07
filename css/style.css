@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Suppression de l'image de marque de 000webhost */
+
+img[alt="www.000webhost.com"]
+{
+    display: none;
+}
+
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    padding:0;
+    margin 0;
+    background: #f2f3f7;
+}
+
+body
+{
+    height:100%;
+    width:100%;
+}
+
+div#choice
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    animation-duration: 3s;
+    animation-name: mon_animation_boutons;
+    width:100%;
+
+}
+
+div#textpresent
+{
+    width:100%;
+    animation-duration: 3s;
+    animation-name: mon_animation_fond;
+}
+
+div#textpresent h1
+{
+    animation-duration: 3s;
+    animation-name: mon_animation_texte;
+    font-size: 75px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+div#textpresent h1 a
+{
+    text-decoration: none;
+    color:#000;
+}
+
+div#textpresent h1 a:hover
+{
+    transition: 0.7s all;
+    color:white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 15px 30px;
+    font-size: 60px;
+}
+
+a.btn
+{
+    margin-right: 40px;
+    position: relative;
+    display: block;
+    padding:10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:500;
+    letter-spacing:5px;
+    color: #5a84a2;
+    font-size: 30px;
+    border-radius:40px;
+    box-shadow:
+            -2px -2px 8px rgba(255,255,255,1),
+            -2px -2px 12px rgba(255,255,255,0.5),
+            inset 2px 2px 4px rgba(255,255,255,0.1),
+            2px 2px 8px rgba(0,0,0,0.15);
+}
+
+a.btn:active
+{
+    box-shadow:
+            inset -2px -2px 8px rgba(255,255,255,1),
+            inset -2px -2px 12px rgba(255,255,255,0.5),
+            inset 2px 2px 4px rgba(255,255,255,0.1),
+            inset 2px 2px 8px rgba(0,0,0,0.15);
+}
+
+@keyframes mon_animation_boutons
+{
+    from
+    {
+        margin-top: 100%;
+    }
+
+    to
+    {
+        margin-top: 0%;
+    }
+}
+
+@keyframes mon_animation_texte
+{
+    from
+    {
+        margin-left: 100%;
+    }
+
+    to
+    {
+        margin-left: 0%;
+    }
+}
+
+@keyframes mon_animation_fond
+{
+    from
+    {
+        margin-left: 100%;
+    }
+
+    to
+    {
+        margin-left: 0%;
+        background-color:black;
+    }
+}
+
+span#yt
+{
+    color:red;
+}
+
+span#twt
+{
+    color: blue;
+}
+
+span#disd
+{
+    color:purple
+}
+
+span#don
+{
+    color:green;
+}
+
+span#shop
+{
+    color:orange;
+}
+
+section
+{
+    width:65%;
+    margin:0 auto;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+section article
+{
+    background-color:gainsboro;
+    border: thick;
+    border-top: 5px solid rgba(0,0,0,1);
+    font-size: 20px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    box-shadow: 2px 2px 2px rgba(121,121,121,1);
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+section article h1, section article p, section article a
+
+{
+    font-size:100%;
+    background-color: inherit;
+    font-weight: lighter;
+}
+
+section article a
+{
+    color: black;
+    text-decoration: underline;
+}
+
+section article a:hover
+{
+    transition: 0.3s all;
+    color: crimson;
+}
+
+section article h1
+{
+    text-align: center;
+    font-size:40px;
+}
+
+img
+{
+    width: 60px;
+    height: 60px;
+}
+
+footer
+{
+    background-color: #CACACA;
+    width:100%;
+    position: absolute;
+    text-align:center;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+footer h3
+{
+    background-color: inherit;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+div#shop_div
+{
+    text-align:center;
+    padding-bottom: 5%;
+}
+
+section article#crypto h2
+{
+    background-color: gainsboro;
+}
+
+div#dons
+{
+    padding-top: 10%;
+    text-align: center;
+}
+
+span#don_web
+{
+    color: darkorange;
+}
+
+i#btc, i#eth
+{
+    padding-top: 1%;
+    font-size:200px;
+    margin-left:100px;
+    margin-right:100px;
+    padding-bottom: 10%;
+}
+
+i#btc:hover,i#eth:hover
+{
+    transition: 0.3s all;
+    color: sandybrown;
+}

@@ -1,2 +1,1 @@
-# vitagyt_neumorphism
-Nouvelle UI pour vitagyt.tk
+UI for vitagyt.tk
