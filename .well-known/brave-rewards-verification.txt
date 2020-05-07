@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vitagyt.tk
+Token: 24785dd5755683bbaab3a370d1ec15cf2f5f74325562419d7edf40c029849b6f
