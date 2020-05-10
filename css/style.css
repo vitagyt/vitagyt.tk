@@ -6,14 +6,15 @@
 {
     font-family: 'Montserrat', sans-serif;
     padding:0;
-    margin: 0;
     background: #f2f3f7;
+
 }
 
 body
 {
     height:100%;
-    margin-top: 1%;
+    overflow-x: hidden;
+    margin:0 auto;
 }
 
 div#choice
@@ -21,27 +22,28 @@ div#choice
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
-    animation-duration: 3s;
+    min-height: 30vh;
+    animation-duration: 2.5s;
     animation-name: mon_animation_boutons;
     width:100%;
-
+    margin: 0 auto;
 }
+
 
 div#textpresent
 {
     width:100%;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: mon_animation_fond;
 }
 
 div#textpresent h1
 {
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: mon_animation_texte;
-    font-size: 75px;
+    font-size: 80px;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
 }
 
 div#textpresent h1 a
@@ -52,23 +54,24 @@ div#textpresent h1 a
 
 div#textpresent h1 a:hover
 {
-    transition: 0.7s all;
+    transition: 0.5s all;
     color:white;
     background-color: black;
     border-radius: 40px;
     padding: 15px 30px;
     font-size: 60px;
+    cursor: pointer;
 }
 
 a.btn
 {
-    margin-right: 40px;
+    text-align: center;
     position: relative;
     display: block;
-    padding:10px 20px;
+    margin-right: 4%;
+    padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight:500;
     letter-spacing:5px;
     color: #5a84a2;
     font-size: 30px;
@@ -98,7 +101,7 @@ a.btn:active
 
     to
     {
-        margin-top: 0%;
+        margin-top: 0;
     }
 }
 
@@ -111,7 +114,7 @@ a.btn:active
 
     to
     {
-        margin-left: 0%;
+        margin-left: 0;
     }
 }
 
@@ -124,7 +127,7 @@ a.btn:active
 
     to
     {
-        margin-left: 0%;
+        margin-left: 0;
         background-color:black;
     }
 }
@@ -146,7 +149,7 @@ span#disd
 
 span#don
 {
-    color: #feff31;
+    color: #3c3c3d;
 }
 
 span#shop
@@ -165,22 +168,22 @@ section
 
 section article
 {
+    width: 100%;
     background-color:gainsboro;
     border: thick;
-    border-top: 5px solid rgba(0,0,0,1);
-    font-size: 20px;
+    border-top: 4px solid rgba(0,0,0,1);
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
     box-shadow: 2px 2px 2px rgba(121,121,121,1);
-    padding:2%;
+    padding:1%;
+    font-size:120%;
+    font-weight: lighter;
 }
 
-section article h1, section article p, section article a
+section article h1, section article p, section article a, section article h2
 
 {
-    font-size:100%;
     background-color: inherit;
-    font-weight: lighter;
 }
 
 section article a
@@ -205,15 +208,15 @@ footer
 {
     background-color: #CACACA;
     position: absolute;
-    border:3px solid black;
+    border-top: 2px solid black;
     text-align:center;
-    width:100vw;
+    width:100%;
 }
 
 footer h3
 {
     background-color: inherit;
-    font-size: 20px;
+    font-size: 100%;
     font-weight: normal;
 }
 
@@ -221,11 +224,6 @@ div#shop_div
 {
     text-align:center;
     padding-bottom: 5%;
-}
-
-section article#crypto h2
-{
-    background-color: gainsboro;
 }
 
 div#dons
@@ -243,14 +241,14 @@ i#btc, i#eth
 {
     padding-top: 1%;
     font-size:200px;
-    margin-left:100px;
-    margin-right:100px;
     padding-bottom: 10%;
+    color: darkslategray;
 }
 
 i#btc:hover,i#eth:hover
 {
-    transition: 0.3s all;
+    transition: 0.2s all;
+    cursor: pointer;
 }
 
 i#btc:hover
@@ -265,7 +263,19 @@ i#eth:hover
 
 div#ethereum
 {
-    margin-bottom:100px;
+    margin-bottom:2%;
+}
+
+noscript
+{
+    font-size:100px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    height: 100%;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    width: 100%;
 }
 
 @media(max-width:1080px)
@@ -273,15 +283,19 @@ div#ethereum
     div#choice
     {
         display: block;
+        width: 80%;
+        margin: 0 auto;
     }
 
-    div#choice a
+    div#choice a.btn
     {
-        margin-bottom:5%;
+        margin-right: 0;
+        margin-bottom: 10%;
     }
 
     section
     {
         width:80%;
     }
+
 }
