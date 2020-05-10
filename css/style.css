@@ -2,22 +2,18 @@
 
 /* Suppression de l'image de marque de 000webhost */
 
-img[alt="www.000webhost.com"]
-{
-    display: none;
-}
-
 *
 {
     font-family: 'Montserrat', sans-serif;
     padding:0;
-    margin 0;
+    margin: 0;
     background: #f2f3f7;
 }
 
 body
 {
     height:100%;
+    margin-top: 1%;
 }
 
 div#choice
@@ -135,22 +131,22 @@ a.btn:active
 
 span#yt
 {
-    color:red;
+    color: #c4302b;
 }
 
 span#twt
 {
-    color: blue;
+    color: #1da1f2;
 }
 
 span#disd
 {
-    color:purple
+    color: #7289da;
 }
 
 span#don
 {
-    color:green;
+    color: #feff31;
 }
 
 span#shop
