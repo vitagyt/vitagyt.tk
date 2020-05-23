@@ -226,6 +226,11 @@ div#shop_div
     padding-bottom: 5%;
 }
 
+div#shop_div h1
+{
+    color: firebrick;
+}
+
 div#dons
 {
     padding-top: 10%;
