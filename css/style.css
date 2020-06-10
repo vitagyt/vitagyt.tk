@@ -286,6 +286,12 @@ iframe
 
 }
 
+iframe#shop
+{
+    width: 640px;
+    height: 1990px;
+}
+
 @media(max-width:1080px)
 {
     div#choice
