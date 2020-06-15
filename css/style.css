@@ -9,8 +9,8 @@
 
 body
 {
-    overflow-x: hidden;
     margin:0 auto;
+    overflow-x: hidden;
 }
 
 
@@ -18,33 +18,34 @@ header
 {
     animation-duration: 2s;
     animation-name: mon_animation_fond;
-    text-align: center;
     width: 100%;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 
 header h1
 {
     animation-duration: 2s;
     animation-name: mon_animation_texte;
-    font-size: 90px;
-    letter-spacing: 25px;
+    letter-spacing: 20px;
+    text-align: center;
+
 }
 
 header h1 a
 {
     text-decoration: none;
-    color:#000;
+    color: black;
+    font-size: 75px;
 }
 
 header h1 a:hover
 {
-    transition: 0.3s all;
-    color:white;
+    color: white;
     background-color: black;
     border-radius: 50px;
-    font-size: 65px;
-    cursor: pointer;
-    padding-left: 20px;
+    transition: 0.5s all;
+    padding-left: 22px;
 }
 
 nav
@@ -148,16 +149,16 @@ span#don
 
 span#shop
 {
-    color:orange;
+    color: #f7931a;
 }
 
 section
 {
     width:100%;
-    margin:0 auto;
     min-height: 100%;
     position: relative;
-    margin-top: 8%;
+    margin:0 auto;
+    margin-top: 10%;
 }
 
 section article
@@ -176,7 +177,6 @@ section article
 }
 
 section article h1, section article p, section article a, section article h2
-
 {
     background-color: inherit;
 }
@@ -200,7 +200,7 @@ footer
     border-top: 2px solid black;
     text-align:center;
     width:100%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 footer h3
@@ -294,14 +294,14 @@ iframe#shop
 
 @media(max-width:1080px)
 {
-    div#choice
+    nav
     {
         display: block;
         width: 60%;
         margin: 0 auto;
     }
 
-    div#choice a.btn
+    nav a.btn
     {
         margin-right: 0;
         margin-bottom: 10%;
@@ -309,7 +309,13 @@ iframe#shop
 
     section
     {
-        width:80%;
+        width:85%;
+    }
+
+    section article
+    {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
 }
