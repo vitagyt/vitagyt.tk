@@ -4,7 +4,7 @@
 {
     font-family: 'Montserrat', sans-serif;
     padding:0;
-    background-color: honeydew;
+    background-color: #fff;
 }
 
 body
@@ -14,7 +14,7 @@ body
 }
 
 
-div#textpresent
+header
 {
     animation-duration: 2s;
     animation-name: mon_animation_fond;
@@ -22,7 +22,7 @@ div#textpresent
     width: 100%;
 }
 
-div#textpresent h1
+header h1
 {
     animation-duration: 2s;
     animation-name: mon_animation_texte;
@@ -30,13 +30,13 @@ div#textpresent h1
     letter-spacing: 25px;
 }
 
-div#textpresent h1 a
+header h1 a
 {
     text-decoration: none;
     color:#000;
 }
 
-div#textpresent h1 a:hover
+header h1 a:hover
 {
     transition: 0.3s all;
     color:white;
@@ -47,7 +47,7 @@ div#textpresent h1 a:hover
     padding-left: 20px;
 }
 
-div#choice
+nav
 {
     display: flex;
     justify-content: center;
