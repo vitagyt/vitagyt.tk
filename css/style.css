@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*
-{
-    font-family: 'Montserrat', sans-serif;
-    padding:0;
-    background-color: #fff;
-}
-
 body
 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
     margin:0 auto;
     overflow-x: hidden;
 }
@@ -16,8 +11,6 @@ body
 
 header
 {
-    animation-duration: 2s;
-    animation-name: mon_animation_fond;
     width: 100%;
     margin-top: 1%;
     margin-bottom: 5%;
@@ -53,12 +46,10 @@ nav
     display: flex;
     justify-content: center;
     align-items: center;
-    animation-duration: 2s;
-    animation-name: mon_animation_boutons;
     margin: inherit;
 }
 
-a.btn
+nav a.btn
 {
     text-align: center;
     position: relative;
@@ -78,7 +69,7 @@ a.btn
             2px 2px 8px rgba(0,0,0,0.5);
 }
 
-a.btn:active
+nav a.btn:active
 {
     box-shadow:
             inset -2px -2px 8px rgba(255,255,255,1),
@@ -87,18 +78,6 @@ a.btn:active
             inset 2px 2px 8px rgba(0,0,0,0.15);
 }
 
-@keyframes mon_animation_boutons
-{
-    from
-    {
-        margin-top: 100%;
-    }
-
-    to
-    {
-        margin-top: 0;
-    }
-}
 
 @keyframes mon_animation_texte
 {
@@ -111,35 +90,6 @@ a.btn:active
     {
         margin-left: 0;
     }
-}
-
-@keyframes mon_animation_fond
-{
-    from
-    {
-        margin-left: 100%;
-    }
-
-    to
-    {
-        margin-left: 0;
-        background-color:black;
-    }
-}
-
-span#yt
-{
-    color: #c4302b;
-}
-
-span#twt
-{
-    color: #1da1f2;
-}
-
-span#disd
-{
-    color: #7289da;
 }
 
 span#don
@@ -157,8 +107,7 @@ section
     width:100%;
     min-height: 100%;
     position: relative;
-    margin:0 auto;
-    margin-top: 10%;
+    margin: 10% auto 0;
 }
 
 section article
@@ -200,14 +149,41 @@ footer
     border-top: 2px solid black;
     text-align:center;
     width:100%;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 footer h3
 {
     background-color: inherit;
     font-size: 100%;
-    font-weight: normal;
+}
+
+footer a i
+{
+    text-align: center;
+    font-size: 80px;
+    margin: 1% 8%;
+}
+
+footer a i#twitter
+{
+    color: #1DA1F2;
+}
+
+footer a i#youtube
+{
+    color: #FF0000;
+}
+
+footer a i#discord
+{
+    color: #7289DA;
+}
+
+footer a i:hover
+{
+    transition: 0.3s all;
+    opacity: 0.7;
 }
 
 div#shop_div
@@ -229,10 +205,6 @@ div#dons
     text-align: center;
 }
 
-span#don_web
-{
-    color: darkorange;
-}
 
 i#btc, i#eth
 {
@@ -278,16 +250,6 @@ noscript
 
 iframe
 {
-    padding-bottom: 5%;
-    width: 500px;
-    height: 250px;
-    display: block;
-    margin: 0 auto;
-
-}
-
-iframe#shop
-{
     width: 640px;
     height: 1990px;
 }
@@ -322,7 +284,6 @@ article#error h3
 
     nav a.btn
     {
-        margin-right: 0;
         margin-bottom: 10%;
     }
 
