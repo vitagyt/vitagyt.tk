@@ -130,7 +130,7 @@ section article
     font-weight: lighter;
 }
 
-section article h1, section article p, section article a, section article h2
+section article p, section article a, section article h2
 {
     background-color: inherit;
 }
@@ -199,7 +199,7 @@ div#shop_div
     text-align:center;
 }
 
-div#shop_div h1
+div#shop_div h2
 {
     color: firebrick;
 }
