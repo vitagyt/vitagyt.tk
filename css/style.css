@@ -147,6 +147,34 @@ section article a:hover
     color: crimson;
 }
 
+article#promobrave
+{
+  text-align: center;
+}
+
+article#promobrave p
+{
+  font-size: 25px;
+}
+
+a.pub
+{
+  font-size: 75px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0099cc;
+  padding: 15px;
+  border: 3px solid #000;
+}
+
+a.pub:hover
+{
+  transition: 0.3s all;
+  color: #0099cc;
+  background-color: #fff;
+  font-weight: bolder;
+}
+
 /* Footer */
 
 footer
