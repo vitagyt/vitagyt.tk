@@ -9,11 +9,6 @@ body
 
 /* Header */
 
-header
-{
-    margin-bottom: 3%;
-}
-
 header h1
 {
     animation-duration: 2s;
@@ -40,16 +35,16 @@ header h1 a
 {
     text-decoration: none;
     color: black;
-    font-size: 80px;
+    font-size: 100px;
+    padding-left: 20px;
 }
 
 header h1 a:hover
 {
-    color: white;
-    background-color: black;
-    border-radius: 20px;
-    transition: 0.5s all;
-    padding-left: 20px;
+  transition: 0.5s all;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50px;
 }
 
 /* Boutons */
@@ -67,14 +62,13 @@ nav a.btn
     text-align: center;
     position: relative;
     display: block;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin: 5%;
     padding: 7px 14px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #5a84a2;
-    font-size: 28px;
+    font-size: 35px;
     border-radius:40px;
     box-shadow:
             -2px -2px 8px rgba(255,255,255,1),
