@@ -270,11 +270,15 @@ i#eth:hover
 
 @media screen and (max-width: 1080px)
 {
+  header h1 a
+  {
+    font-size: 75px;
+  }
     nav a.btn
     {
       font-size: 20px;
       padding: 5px 10px;
-      margin: 4%;
+      margin: 2%;
     }
 
     footer a i
@@ -308,5 +312,10 @@ i#eth:hover
       font-size: 100%;
       margin-bottom: 10%;
       margin-top: 1%;
+    }
+
+    .ad
+    {
+      font-size: 20px;
     }
 }
