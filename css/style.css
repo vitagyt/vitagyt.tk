@@ -68,7 +68,7 @@ nav a.btn
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #5a84a2;
-    font-size: 35px;
+    font-size: 50px;
     border-radius:40px;
     box-shadow:
             -2px -2px 8px rgba(255,255,255,1),
@@ -191,7 +191,7 @@ footer a i
 {
     text-align: center;
     font-size: 75px;
-    margin: 1% 8%;
+    margin: 1% 5%;
 }
 
 footer a i#twitter
@@ -202,11 +202,6 @@ footer a i#twitter
 footer a i#youtube
 {
     color: #FF0000;
-}
-
-footer a i#github
-{
-    color: #000;
 }
 
 footer a i:hover
