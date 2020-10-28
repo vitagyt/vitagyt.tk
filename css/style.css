@@ -97,6 +97,11 @@ span#shop
     color: #f7931a;
 }
 
+iframe#discordapp
+{
+  width: 90%;
+}
+
 /* Catégorie principale */
 
 section
@@ -180,6 +185,7 @@ img#donbrave
   border-radius: 30px;
   border: 2px solid #1D99BB;
 }
+
 /* Footer */
 
 footer
@@ -284,7 +290,8 @@ i#eth:hover
   {
     font-size: 75px;
   }
-    nav a.btn
+
+  nav a.btn
     {
       font-size: 20px;
       padding: 5px 10px;
@@ -326,7 +333,7 @@ i#eth:hover
 
     .ad
     {
-      font-size: 16px;
+      font-size: 15px;
     }
     p#hasheur
     {
