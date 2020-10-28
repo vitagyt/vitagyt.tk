@@ -97,9 +97,10 @@ span#shop
     color: #f7931a;
 }
 
-iframe#discordapp
+.wrapper
 {
-  width: 90%;
+  text-align: center;
+  width: 100%;
 }
 
 /* Catégorie principale */
@@ -168,12 +169,6 @@ article iframe
   color: #0099cc;
   background-color: #fff;
   font-weight: bolder;
-}
-
-div.centrer
-{
-  width: 100%;
-  text-align: center;
 }
 
 img#donbrave
