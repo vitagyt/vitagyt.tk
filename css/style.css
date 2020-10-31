@@ -107,7 +107,8 @@ span#shop
 
 section
 {
-    width:100%;
+    width:85%;
+    text-align: center;
     min-height: 100%;
     position: relative;
     margin-top: 5%;
@@ -118,15 +119,16 @@ section
 
 section article
 {
-    width: 80%;
-    margin: inherit;
-    background-color:gainsboro;
+    margin-top : 1%;
+    margin-bottom: 6%;
+    background-color: gainsboro;
     border: thick;
     border-top: 4px solid rgba(0,0,0,1);
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
     box-shadow: 2px 2px 2px rgba(121,121,121,1);
     padding:2%;
+    padding-bottom: 5%;
     font-size: 120%;
     font-weight: lighter;
 }
@@ -148,9 +150,16 @@ section article a:hover
     color: crimson;
 }
 
-article iframe
+section article h1, p
 {
-  margin: 5%;
+  text-align: left;
+}
+
+section article h2
+{
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .ad
@@ -178,7 +187,13 @@ img#donbrave
   text-align: center;
   margin-top: 5%;
   border-radius: 30px;
-  border: 2px solid #1D99BB;
+  border: 3px solid #1D99BB;
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, .2);
+}
+
+p#hasheur
+{
+  font-style: italic;
 }
 
 /* Footer */
@@ -327,5 +342,11 @@ i#eth:hover
     p#hasheur
     {
       margin-bottom: 40px;
+    }
+
+    iframe#iframeyt
+    {
+      width: 300px;
+      height: 222px;
     }
 }
