@@ -157,7 +157,6 @@ section article p
 
 iframe#iframeyt
 {
-  text-align: center;
   width: 500px;
   height: 280px;
 }
@@ -216,12 +215,6 @@ i#eth:hover
 
 @media screen and (max-width: 1080px)
 {
-
-    footer a i
-    {
-        font-size: 50px;
-    }
-
     section article#donnation h2
     {
         font-size: 15px;
@@ -235,13 +228,6 @@ i#eth:hover
     div#shop_div h1
     {
         font-size: 20px;
-    }
-
-    section article
-    {
-      font-size: 100%;
-      margin-bottom: 10%;
-      margin-top: 1%;
     }
 
     iframe#iframeyt
