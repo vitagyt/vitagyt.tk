@@ -16,20 +16,33 @@
   <title>Don</title>
 </head>
 <body>
-    <header>
-        <h1><a href="index">VITAG</a></h1>
-    </header>
+  <header class="header">
+    <a href="" class="logo">vitag</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="https://rebrand.ly/VitagYouTube" target="_blank">YouTube</a></li>
+      <li><a href="https://rebrand.ly/VitagDiscord" target="_blank">Discord</a></li>
+      <li><a href="https://rebrand.ly/VitagTwitter" target="_blank">Twitter</a></li>
+      <li><a href="shop" target="_blank">Shop</a></li>
+      <li><a href="don" target="_blank">Soutenir</a></li>
+    </ul>
+  </header>
 
     <section>
-        <article id="donnation">
-            <h2>Pour me faire un don, cliquez sur l'icone de la cryptomonnaie dans laquelle vous souhaitez faire un don, mon adresse sera collée dans votre presse-papier.</h2>
+        <article>
+            <h2>comment me soutenir ?</h2>
+            <p>► cliquez sur l'icone de la cryptomonnaie dans laquelle vous souhaitez faire un don, mon adresse sera collée dans votre presse-papier.
+            D'autres cryptomonnaies à venir.</p>
+
+            <p>► utiliser mes liens d'affiliation : <a href="index#aff" target="_blank ">clique ici pour accéder aux différents liens.</a></p>
             <noscript>
                 <h2>Javascript est désactivé par conséquent les adresse ne pourront pas être copiées-collées automatiquement, il faudra le faire manuellement 😢</h2>
                 <p>Bitcoin: 1K7sWw9o2hFRknBqhZb8BsXDYFdsHLRowU</p>
                 <p>Ethereum: 0xFf5bbD5bdc8F587a32e66123192937A623A0a682</p>
             </noscript>
         </article>
-        <div id="dons">
+        <div class="wrapper">
             <div>
                 <h3>Bitcoin</h3>
                 <i id="btc" class="fab fa-btc" onclick="copy('1K7sWw9o2hFRknBqhZb8BsXDYFdsHLRowU')"></i>
