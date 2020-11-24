@@ -218,7 +218,6 @@ section article a
   color: #fff;
   text-decoration: none;
   font-style: oblique;
-  font-size: 16px;
 }
 
 section article a:hover
@@ -309,6 +308,10 @@ i#eth:hover
 
 @media screen and (max-width: 1080px)
 {
+  footer
+  {
+    margin-top: 25%;
+  }
     footer h4
     {
       font-size: 15px;
@@ -326,7 +329,17 @@ i#eth:hover
 
     section
     {
-      width: 80%;
-      margin-bottom: 15%;
+      width: 85%;
+    }
+
+    td,th
+    {
+      font-size: 10px;
+      padding: 3px;
+      display: block;
+    }
+    button
+    {
+      font-size: 10px;
     }
 }
