@@ -93,7 +93,7 @@ footer a i:hover
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
-  color : #004AFF;
+  color : #000;
 }
 
 /* menu */
@@ -184,39 +184,39 @@ footer a i:hover
 section
 {
   top: 70px;
-    width:60%;
-    min-height: 100%;
-    position: relative;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: auto;
-    margin-left: auto;
+  width:60%;
+  min-height: 100%;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 section article
 {
-    margin-bottom: 15%;
-    background: rgb(0,155,255);
-    background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,74,255,1) 100%);
-    border: thick;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    box-shadow: 2px 2px 2px rgba(121,121,121,1);
-    padding:5%;
-    font-weight: lighter;
-    color: white;
-    text-align: left;
+  margin-bottom: 15%;
+  background: rgb(0,155,255);
+  background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,74,255,1) 100%);
+  border: thick;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 2px 2px 2px rgba(121,121,121,1);
+  padding:5%;
+  font-weight: lighter;
+  color: white;
+  text-align: left;
 }
 
 section article p, section article a, section article h2
 {
-    background-color: inherit;
+  background-color: inherit;
 }
 
 section article a
 {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 section article a:hover
@@ -246,9 +246,31 @@ iframe#iframeyt
   height: 280px;
 }
 
+/* affiliation */
+
 button
 {
   float: right;
+}
+
+table, td, th {
+  border: 1px solid #000;
+}
+
+td,th {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr#presentation td
+{
+  text-transform: uppercase;
 }
 
 /* Shop.html */
@@ -306,6 +328,7 @@ i#eth:hover
 
     section
     {
-      width: 75%;
+      width: 80%;
+      margin-bottom: 15%;
     }
 }
