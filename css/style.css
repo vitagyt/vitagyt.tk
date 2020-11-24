@@ -215,14 +215,17 @@ section article p, section article a, section article h2
 
 section article a
 {
-  color: black;
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
+  font-style: oblique;
+  font-size: 16px;
 }
 
 section article a:hover
 {
     transition: 0.3s all;
-    color: crimson;
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 section article h2
@@ -247,11 +250,6 @@ iframe#iframeyt
 }
 
 /* affiliation */
-
-button
-{
-  float: right;
-}
 
 table, td, th {
   border: 1px solid #000;
