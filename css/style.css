@@ -170,7 +170,7 @@ footer a i:hover
   top: 0;
 }
 
-/* Contenu page */
+/* useful */
 
 .wrapper
 {
@@ -243,6 +243,11 @@ iframe#iframeyt
 {
   width: 500px;
   height: 280px;
+}
+
+button
+{
+  float: right;
 }
 
 /* Shop.html */
