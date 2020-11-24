@@ -289,7 +289,6 @@ i#eth:hover
 
 @media screen and (max-width: 1080px)
 {
-
     footer h4
     {
       font-size: 15px;
@@ -303,5 +302,10 @@ i#eth:hover
     iframe#shop
     {
       margin-top: 2%;
+    }
+
+    section
+    {
+      width: 75%;
     }
 }
