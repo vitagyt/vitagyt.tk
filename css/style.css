@@ -261,7 +261,7 @@ td,th {
 }
 
 table {
-  width: 100%;
+  width: available;
   border-collapse: collapse;
 }
 
@@ -343,7 +343,6 @@ i#eth:hover
       font-size: 15px;
       padding: 4px;
       display: block;
-      width: 100%;
     }
     button
     {
