@@ -340,12 +340,12 @@ i#eth:hover
 
     td,th
     {
-      font-size: 10px;
+      font-size: 12px;
       padding: 3px;
       display: block;
     }
     button
     {
-      font-size: 10px;
+      font-size: 12px;
     }
 }
