@@ -343,6 +343,7 @@ i#eth:hover
       font-size: 15px;
       padding: 4px;
       display: block;
+      width: 100%;
     }
     button
     {
