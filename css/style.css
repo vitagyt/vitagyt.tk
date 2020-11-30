@@ -261,7 +261,7 @@ td,th {
 }
 
 table {
-  width: available;
+  width: auto;
   border-collapse: collapse;
 }
 
