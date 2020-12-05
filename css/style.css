@@ -184,7 +184,7 @@ footer a i:hover
 section
 {
   top: 70px;
-  width: 70%;
+  width: 75%;
   min-height: 100%;
   position: relative;
   margin-top: 5%;
@@ -265,7 +265,7 @@ table {
 td,th {
   padding: 10px;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 tr#presentation td
