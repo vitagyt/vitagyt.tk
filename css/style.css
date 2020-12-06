@@ -283,14 +283,20 @@ iframe#shop
     height: 2500px;
 }
 
-/* Don.html */
+/* soutenir.html */
+
+div h3
+{
+  margin-top: 6%;
+  margin-bottom: 2%;
+  font-size: 25px;
+}
 
 i#btc, i#eth
 {
-    padding-top: 3%;
-    padding-bottom: 10%;
     font-size:250px;
     color: darkslategray;
+    margin-bottom: 8%;
 }
 
 i#btc:hover, i#eth:hover
@@ -307,6 +313,33 @@ i#btc:hover
 i#eth:hover
 {
     color: #3c3c3d;
+}
+
+a.soutenir
+{
+  text-decoration: none;
+  color: darkslategray;
+  font-size:100px;
+  padding: 10px;
+}
+
+a.soutenir#rarible
+{
+  background-color: #FCDB3F;
+  color : #000;
+}
+
+a.soutenir#brave
+{
+  color: #fff;
+  background-color: #ED4D1A
+}
+
+a.soutenir:hover
+{
+  text-decoration: underline;
+  color: #3c3c3d;
+  transition: 0.3s all;
 }
 
 /* Responsive Design */
