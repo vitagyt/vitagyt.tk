@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: vitagyt.github.io
-Token: ba022ad19ec13296ce564fcd79e29ec35e288a8a42469f9cc0ced977f6a4c27e
