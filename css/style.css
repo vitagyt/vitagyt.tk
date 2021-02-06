@@ -249,7 +249,15 @@ iframe#iframeyt
   margin-top: 15%;
 }
 
-/* affiliation */
+/* Shop.html */
+
+iframe#shop
+{
+    width: 100%;
+    height: 2500px;
+}
+
+/* soutenir.html */
 
 table, td, th
 {
@@ -275,71 +283,16 @@ tr#presentation td
   letter-spacing: 2px;
 }
 
-/* Shop.html */
-
-iframe#shop
+div#don_crypto
 {
-    width: 100%;
-    height: 2500px;
+  text-align: center;
+  font-size: 50px;
 }
 
-/* soutenir.html */
-
-div h3
+article#cc
 {
-  margin-top: 6%;
-  margin-bottom: 2%;
-  font-size: 25px;
-}
-
-i#btc, i#eth
-{
-    font-size:250px;
-    color: darkslategray;
-    margin-bottom: 8%;
-}
-
-i#btc:hover, i#eth:hover
-{
-    transition: 0.3s all;
-    cursor: pointer;
-}
-
-i#btc:hover
-{
-    color: #f7931a;
-}
-
-i#eth:hover
-{
-    color: #3c3c3d;
-}
-
-a.soutenir
-{
-  text-decoration: none;
-  color: darkslategray;
-  font-size:100px;
-  padding: 10px;
-}
-
-a.soutenir#rarible
-{
-  background-color: #FCDB3F;
-  color : #000;
-}
-
-a.soutenir#brave
-{
-  color: #fff;
-  background-color: #ED4D1A
-}
-
-a.soutenir:hover
-{
-  text-decoration: underline;
-  color: #3c3c3d;
-  transition: 0.3s all;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,128,98,1) 52%, rgba(64,216,247,1) 100%);
 }
 
 /* Responsive Design */
