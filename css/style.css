@@ -199,8 +199,7 @@ section article
   background: rgb(0,155,255);
   background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,74,255,1) 100%);
   border: thick;
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
+  border-radius: 25px;
   box-shadow: 2px 2px 2px rgba(121,121,121,1);
   padding:5%;
   font-weight: lighter;
