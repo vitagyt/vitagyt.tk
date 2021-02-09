@@ -240,12 +240,10 @@ section article p
   font-size: 15px;
   color: #EDEAEA;
 }
-
 iframe#iframeyt
 {
-  width: 500px;
-  height: 280px;
-  margin-top: 15%;
+  width:789px;
+  height:444px ;
 }
 
 /* Shop.html */
@@ -296,13 +294,14 @@ article#cc
   {
     margin-top: 25%;
   }
-    footer h4
-    {
-      font-size: 8px;
-    }
+  
+  footer h4
+  {
+    font-size: 8px;
+  }
 
-    iframe#iframeyt
-    {
+  iframe#iframeyt
+  {
       height: 200px;
       width: 225px;
     }
