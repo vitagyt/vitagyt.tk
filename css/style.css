@@ -115,7 +115,8 @@ footer a i:hover
   user-select: none;
 }
 
-.header .menu-icon .navicon {
+.header .menu-icon .navicon
+{
   background: #333;
   display: block;
   height: 2px;
@@ -124,8 +125,8 @@ footer a i:hover
   width: 18px;
 }
 
-.header .menu-icon .navicon:before,
-.header .menu-icon .navicon:after {
+.header .menu-icon .navicon:before, .header .menu-icon .navicon:after
+{
   background: #333;
   content: '';
   display: block;
@@ -135,29 +136,35 @@ footer a i:hover
   width: 100%;
 }
 
-.header .menu-icon .navicon:before {
+.header .menu-icon .navicon:before
+{
   top: 5px;
 }
 
-.header .menu-icon .navicon:after {
+.header .menu-icon .navicon:after
+{
   top: -5px;
 }
 
 /* menu btn */
 
-.header .menu-btn {
+.header .menu-btn
+{
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked ~ .menu
+{
   max-height: 360px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.header .menu-btn:checked ~ .menu-icon .navicon
+{
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked ~ .menu-icon .navicon:before
+{
   transform: rotate(-45deg);
 }
 
@@ -200,7 +207,7 @@ section article
   border: thick;
   border-radius: 25px;
   box-shadow: 2px 2px 2px rgba(121,121,121,1);
-  padding:5%;
+  padding:4%;
   font-weight: lighter;
   color: #fff;
   text-align: left;
