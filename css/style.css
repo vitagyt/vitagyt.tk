@@ -16,19 +16,17 @@ body
 
 footer
 {
-  background: rgb(209,209,209);
-  background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(209,209,209,1) 100%);
+  background-color: #fff;
   position: absolute;
-  border-top: 2px solid black;
+  border-top: 1px solid #000;
   text-align:center;
   width:100%;
-  margin-top: 5%;
 }
 
 footer a i
 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     margin: 1% 5%;
 }
 
@@ -189,25 +187,24 @@ footer a i:hover
 
 section
 {
-  top: 70px;
   width: 75%;
   min-height: 100%;
   position: relative;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
   margin-right: auto;
   margin-left: auto;
 }
 
 section article
 {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   background: rgb(0,155,255);
   background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,74,255,1) 100%);
   border: thick;
   border-radius: 25px;
   box-shadow: 2px 2px 2px rgba(121,121,121,1);
-  padding:4%;
+  padding: 2%;
   font-weight: lighter;
   color: #fff;
   text-align: left;
@@ -246,18 +243,11 @@ section article p
   font-size: 15px;
   color: #EDEAEA;
 }
+
 iframe#iframeyt
 {
   width:789px;
   height:444px ;
-}
-
-/* Shop.html */
-
-iframe#shop
-{
-    width: 100%;
-    height: 2500px;
 }
 
 /* soutenir.html */
@@ -284,12 +274,6 @@ tr#presentation td
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
-}
-
-article#cc
-{
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,128,98,1) 52%, rgba(64,216,247,1) 100%);
 }
 
 /* Responsive Design */
