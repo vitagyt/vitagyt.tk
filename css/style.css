@@ -12,37 +12,27 @@ body
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,223,214,1) 50%, rgba(255,255,255,1) 100%);
 }
 
-/* Footer */
+/* footer */
 
 footer
 {
-  background-color: #fff;
-  position: absolute;
-  border-top: 1px solid #000;
-  text-align:center;
-  width:100%;
+    border-top: 1px solid #000;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
 }
-
 footer a i
 {
     text-align: center;
-    font-size: 50px;
-    margin: 1% 5%;
+    font-size: 100px;
+    margin: 2%;
 }
 
-footer a i#twitter
+footer a i#vitag
 {
-    color: #1DA1F2;
-}
-
-footer a i#youtube
-{
-    color: #FF0000;
-}
-
-footer a i#discord
-{
-  color: #7289da
+    color: #fff;
 }
 
 footer a i:hover
@@ -50,6 +40,26 @@ footer a i:hover
     transition: 0.3s all;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1080px)
+{
+    div#creator
+    {
+        width: 75%;
+    }
+
+    div#creator h4
+    {
+        font-size: 15px;
+    }
+
+    footer a i
+    {
+        font-size: 75px;
+    }
+}
+
+/* end footer*/
 
 /* Header Nav */
 
@@ -281,16 +291,6 @@ tr#presentation td
 
 @media screen and (max-width: 1080px)
 {
-  footer
-  {
-    margin-top: 25%;
-  }
-  
-  footer h4
-  {
-    font-size: 8px;
-  }
-
   iframe#iframeyt
   {
       height: 200px;
