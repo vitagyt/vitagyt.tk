@@ -14,6 +14,14 @@ body
 
 /* footer */
 
+div#creator
+{
+    padding: 1%;
+    border: 1px solid #fff;
+    width: 25%;
+    margin: 1% auto;
+}
+
 footer
 {
     border-top: 1px solid #000;
