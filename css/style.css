@@ -5,7 +5,7 @@
 body
 {
   font-family: 'Open Sans', sans-serif;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
   background: rgb(255,255,255);
@@ -13,6 +13,15 @@ body
 }
 
 /* footer */
+
+div#creator h4
+{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
 
 div#creator
 {
@@ -73,7 +82,8 @@ footer a i:hover
 
 /* Header Nav */
 
-.header {
+.header 
+{
   position: fixed;
   top:0;
   background-color: #fff;
@@ -83,7 +93,8 @@ footer a i:hover
   z-index: 3;
 }
 
-.header ul {
+.header ul
+{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -91,15 +102,16 @@ footer a i:hover
   background-color: #fff;
 }
 
-.header li a {
+.header li a
+{
   display: block;
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
+.header li a:hover, .header .menu-btn:hover
+{
   background-color: #f4f4f4;
 }
 
@@ -219,7 +231,7 @@ section
 
 section article
 {
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   background: rgb(0,155,255);
   background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,74,255,1) 100%);
   border: thick;
