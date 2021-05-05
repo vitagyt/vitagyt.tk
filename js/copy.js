@@ -6,5 +6,5 @@ function copy(text)
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
-    alert('Adrese copiée dans le presse-papier avec succès 😎')
+    alert('Copié dans le presse-papier avec succès 😎')
 }
