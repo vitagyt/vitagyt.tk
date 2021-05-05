@@ -156,7 +156,6 @@ section
   min-height: 100%;
   position: relative;
   top: 75px;
-  margin-bottom: 10%;
   margin-top: 4%;
   margin-right: auto;
   margin-left: auto;
@@ -164,7 +163,7 @@ section
 
 section article
 {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   background: rgb(0,155,255);
   background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,74,255,1) 100%);
   border: thick;
@@ -282,21 +281,11 @@ tr#presentation td
 
 /* footer */
 
-footer
-{
-    border-top: 1px solid #000;
-    background: rgb(9,9,121);
-    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,151,255,1) 37%, rgba(2,0,36,1) 100%);
-    text-align: center;
-    color: #fff;
-    font-size: 15px;
-}
-
 div#creator h4
 {
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 20px;
+    letter-spacing: 5px;
+    font-size: 15px;
     text-align: center;
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
@@ -304,10 +293,9 @@ div#creator h4
 
 div#creator
 {
-    padding: 1%;
     border: 1px solid #fff;
     width: 25%;
-    margin: 1% auto;
+    margin: 0.5% auto;
 }
 
 footer
@@ -320,6 +308,7 @@ footer
     font-size: 15px;
     width: 100%;
     position: absolute;
+    margin-top: 10%;
 }
 footer a i
 {
